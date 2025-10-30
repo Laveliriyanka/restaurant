@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 import SubscribeForm from "../components/SubscribeForm";
-
+import eventRestaurant from "../api/assets/9966.jpg"
+import ctaNews from "../api/assets/CTA_News.jpg"
 const newsPosts = [
   {
     title: "Hosting Events at the Restaurant: What You Need to Know",
     date: "April 22, 2025",
     desc: "From intimate dinners to corporate gatherings...",
-    img: "/src/api/assets/9966.jpg",
+    img: eventRestaurant,
     link: "https://www.google.com",
   },
   {
@@ -81,7 +82,7 @@ export default function News({ theme }) {
       </div>
       <section className="relative rounded-3xl overflow-hidden">
         <img
-          src="/src/api/assets/CTA_News.jpg"
+          ctaNews
           className="absolute inset-0 w-full h-full object-cover brightness-50"
         />
         <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />

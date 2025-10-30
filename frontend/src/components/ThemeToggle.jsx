@@ -1,9 +1,8 @@
 import React from "react";
+import iconLight from "../api/assets/moderate.png";
+import iconDark from "../api/assets/waning-moon.png";
 
 export default function ThemeToggle({ theme, setTheme }) {
-  const iconLight = "/src/api/assets/moderate.png"; 
-  const iconDark = "/src/api/assets/waning-moon.png"; 
-
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

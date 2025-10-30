@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
+import heroImgDark from "../api/assets/download.png"; // 
 
 export default function Hero({ theme }) {
-  const heroImgDark = "/src/api/assets/download.png";
-
   return (
     <section className="relative h-[90vh] flex flex-col items-center justify-center overflow-hidden bg-[#01101D]">
       <img
@@ -34,3 +33,4 @@ export default function Hero({ theme }) {
     </section>
   );
 }
+

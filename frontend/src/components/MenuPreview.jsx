@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import pastaImg from "../api/assets/паста.png";
 
 const menuItems = [
   {
     title: "Truffle Pasta",
-    img: "/src/api/assets/паста.png",
+    img: pastaImg,
     price: "$24",
   },
   {
@@ -18,6 +19,7 @@ const menuItems = [
     price: "$14",
   },
 ];
+
 
 export default function MenuPreview({ theme }) {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });

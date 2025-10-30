@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Hero from "../components/Hero";
 import { motion, AnimatePresence } from "framer-motion";
-
+import tomatoSoup from "../api/assets/roasted-tomato-soup-4-682x887.jpg"
 const menuItems = [
   { title: "Truffle Pasta", category: "Hot", desc: "Creamy pasta with truffle oil", price: "$24", img: "/src/api/assets/паста.png" },
   { title: "Tartare", category: "Hot", desc: "Fresh salmon with avocado", price: "$19", img: "https://eat-cook.ru/wp-content/uploads/2023/12/shutterstock_1459419983-scaled-1.webp" },
@@ -10,7 +10,7 @@ const menuItems = [
   { title: "Beef Steak", category: "Hot", desc: "Grilled steak with sauce", price: "$28", img: "https://t4.ftcdn.net/jpg/03/29/64/59/360_F_329645970_ynbmXxiU7f5Ia7ygcPnYGTUtLi38fvNT.jpg" },
   { title: "Lemonade", category: "Drinks", desc: "Homemade lemonades in the assortment", price: "$6", img: "https://www.restoran.ru/upload/resize_cache/iblock/171/1920_1080_1/otkryvalo.jpg" },
   { title: "Cheesecake", category: "Desserts", desc: "Classic cheesecake with berries", price: "$10", img: "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FkWmC.img?w=1919&h=1080&m=4&q=89" },
-  { title: "Tomato Soup", category: "Soups", desc: "Fresh tomato soup with basil", price: "$11", img: "/src/api/assets/roasted-tomato-soup-4-682x887.jpg" },
+  { title: "Tomato Soup", category: "Soups", desc: "Fresh tomato soup with basil", price: "$11", img:  tomatoSoup},
   { title: "Iced Tea", category: "Drinks", desc: "Refreshing iced tea with lemon", price: "$5", img: "https://avatars.mds.yandex.net/i?id=e6f83016ddc430c365313be37b6585a4_l-4461053-images-thumbs&n=13" },
   { title: "Grilled Chicken", category: "Hot", desc: "Chicken breast with vegetables", price: "$20", img: "https://ak.picdn.net/shutterstock/videos/1103073545/thumb/1.jpg" },
   { title: "Fruit Salad", category: "Desserts", desc: "Seasonal fruit with mint", price: "$8", img: "https://i.pinimg.com/736x/6e/75/3e/6e753e181488b02ad561618399dff247.jpg" },

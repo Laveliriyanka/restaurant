@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import photo3 from "../api/assets/pexels-szymon-shields-1503561-29033148.jpg";
+import photo4 from "../api/assets/pexels-anna-belousova-130658517-10132214.jpg";
 const photos = [
   "https://gcdn.tomesto.ru/img/place/000/032/643/restoran-park-na-mantulinskoy_c6266_full-380027.jpg",
   "https://gcdn.tomesto.ru/img/place/000/032/643/restoran-park-na-mantulinskoy_4bc1e_full-380020.jpg",
-  "/src/api/assets/pexels-szymon-shields-1503561-29033148.jpg",
-  "/src/api/assets/pexels-anna-belousova-130658517-10132214.jpg",
+  photo3,
+  photo4
 ];
 
 export default function Gallery({ theme }) {
