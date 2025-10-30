@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import Hero from "../components/Hero";
 import { motion, AnimatePresence } from "framer-motion";
 import tomatoSoup from "../api/assets/roasted-tomato-soup-4-682x887.jpg"
+import pastaImg from "../api/assets/паста.png";
 const menuItems = [
-  { title: "Truffle Pasta", category: "Hot", desc: "Creamy pasta with truffle oil", price: "$24", img: "/src/api/assets/паста.png" },
+  { title: "Truffle Pasta", category: "Hot", desc: "Creamy pasta with truffle oil", price: "$24", img: pastaImg },
   { title: "Tartare", category: "Hot", desc: "Fresh salmon with avocado", price: "$19", img: "https://eat-cook.ru/wp-content/uploads/2023/12/shutterstock_1459419983-scaled-1.webp" },
   { title: "Chocolate Lava Cake", category: "Desserts", desc: "Rich chocolate cake with molten center", price: "$14", img: "https://i.pinimg.com/originals/46/46/ec/4646ec84f071bf4e26fe55369d74276f.jpg" },
   { title: "Mushroom Soup", category: "Soups", desc: "Creamy mushroom soup with herbs", price: "$12", img: "https://avatars.mds.yandex.net/get-entity_search/2028178/1212683149/S600xU_2x" },

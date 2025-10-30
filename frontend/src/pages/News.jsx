@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import SubscribeForm from "../components/SubscribeForm";
-import eventRestaurant from "../api/assets/9966.jpg"
+import eventRestaurant from "../api/assets/9966.jpg";
 import ctaNews from "../api/assets/CTA_News.jpg"
 const newsPosts = [
   {
@@ -81,10 +81,11 @@ export default function News({ theme }) {
         </button>
       </div>
       <section className="relative rounded-3xl overflow-hidden">
-        <img
-          ctaNews
-          className="absolute inset-0 w-full h-full object-cover brightness-50"
-        />
+      <img
+        src={ctaNews}
+        alt="CTA background"
+        className="absolute inset-0 w-full h-full object-cover brightness-50"
+      />
         <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
 
         <div className="relative text-center py-28 px-4">
